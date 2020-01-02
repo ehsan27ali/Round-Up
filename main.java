@@ -6,7 +6,7 @@ public class Round {
     
     //initialize variables
     int first, last, quotient;
-    char userOption;
+    String userOption;
     Scanner input = new Scanner(System.in);
     
     do{
@@ -16,7 +16,7 @@ public class Round {
       System.out.println("Would you like to quit (y/n): ");
       userOption = input.nextChar();
       
-    }while(userOption == 'n' || userOption == 'N');
+    }while(userOption.toUpper() == "NO" || userOption.toUpper == "N");
     System.out.println("Project terminated.");
     input.close();
   } 
