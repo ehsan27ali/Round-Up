@@ -10,6 +10,8 @@ public class Round {
     Scanner input = new Scanner(System.in);
     
     do{
+      System.out.println("Enter first number: ");
+      first = input.nextInt();
       
       System.out.println("Would you like to quit (y/n): ");
       userOption = input.nextChar();
